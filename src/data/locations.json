@@ -1,101 +1,49 @@
 [
   {
-    "name": "Abuelo's Mexican Restaurant",
-    "street": "24600 Katy Fwy #1020",
-    "city": "Katy",
+    "name": "McDonald's",
+    "street": "3700 S Clear Creek Rd",
+    "city": "Killeen",
     "state": "TX",
-    "zip": "77493",
-    "url": "http://www.abuelos.com/locations/katy-tx/",
-    "pos": {"lat":29.7872806,"lng":-95.7948816}
+    "zip": "76549",
+    "url": "https://www.mcdonalds.com/us/en-us.html",
+    "pos": {"lat":31.1081956,"lng":-97.8037844}
   },
   {
-    "name": "Los Cucos Mexican Restaurant",
-    "street": "5305 Bell Patna Dr",
-    "city": "Katy",
+    "name": "McDonal's",
+    "street": "4622 S Fort Hood St (at Stan Schlueter Loop)",
+    "city": "Killeen",
     "state": "TX",
-    "zip": "77494",
-    "url": "http://www.loscucos.com/",
-    "pos": {"lat":29.7766836,"lng":-95.8149584}
+    "zip": "76542",
+    "url": "https://www.mcdonalds.com/us/en-us.html",
+    "pos": {"lat":31.0783698,"lng":-97.7570987}
   },
   {
-    "name": "Alicia's Mexican Grille",
-    "street": "25725 Katy Fwy",
-    "city": "Katy",
+    "name": "McDonald's",
+    "street": "109 E Rancier Ave",
+    "city": "Killeen",
     "state": "TX",
-    "zip": "77494",
-    "url": "http://aliciasmexicangrille.com/",
-    "pos": {"lat":29.7763467,"lng":-95.8246808}
+    "zip": "76541",
+    "url": "https://www.mcdonalds.com/us/en-us.html",
+    "pos": {"lat":31.1264807,"lng":-97.7274267}
+    
   },
   {
-    "name": "Cafe Del Sol Mexican Restaurant",
-    "street": "23945 Franz Rd",
-    "city": "Katy",
+    "name": "McDonald's",
+    "street": "4300 E Central Texas Expy",
+    "city": "Killeen",
     "state": "TX",
-    "zip": "77493",
-    "url": "http://www.restaurantkaty.com/",
-    "pos": {"lat":29.8012701,"lng":-95.7866241}
+    "zip": "76543",
+    "url": "https://www.mcdonalds.com/us/en-us.html",
+    "pos": {"lat":31.0803619,"lng":-97.7003738}
   },
   {
-    "name": "Los Cucos Mexican Restaurant",
-    "street": "5831 Hwy Blvd",
-    "city": "Katy",
+    "name": "McDonald's",
+    "street": "1400 Lowes Blvd",
+    "city": "Killeen",
     "state": "TX",
-    "zip": "77494",
-    "url": "http://www.loscucos.com/",
-    "pos": {"lat":29.7851944,"lng":-95.8274412}
-  },
-  {
-    "name": "Tacos Y Tortas Adrian",
-    "street": "1997 Katy Mills Blvd suite 300",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77494",
-    "url": "http://www.tacosadrian.com/",
-    "pos": {"lat":29.7840138,"lng":-95.8088254}
-  },
-  {
-    "name": "Taqueria Tex-Taco",
-    "street": "2864 Katy Hockley Cut Off Rd",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77493",
-    "url": "",
-    "pos": {"lat":29.8163904,"lng":-95.8105414}
-  },
-  {
-    "name": "Ray's Mexican Restaurant",
-    "street": "870 S Mason Rd #152",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77450",
-    "url": "http://www.raysmexicanrestaurant.com/",
-    "pos": {"lat":29.7701635,"lng":-95.755334}
-  },
-  {
-    "name": "Lupe Tortilla",
-    "street": "703 West Grand Parkway South,",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77494",
-    "url": "https://www.tex-mex.com/",
-    "pos": {"lat":29.7705518,"lng":-95.7778959}
-  },
-  {
-    "name": "Ruthie's Mexicana",
-    "street": "1315 West Grand Parkway South #101",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77494",
-    "url": "",
-    "pos": {"lat":29.7607245,"lng":-95.7768667}
-  },
-  {
-    "name": "Uncle Julio's Mexican From Scratch",
-    "street": "20526 Katy Fwy",
-    "city": "Katy",
-    "state": "TX",
-    "zip": "77450",
-    "url": "https://www.unclejulios.com/locations/katy/",
-    "pos": {"lat":29.78614,"lng":-95.730325}
+    "zip": "76542",
+    "url": "https://www.mcdonalds.com/us/en-us.html",
+    "pos": {"lat":31.0894381,"lng":-97.7296839}
   }
+
 ]

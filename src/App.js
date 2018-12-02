@@ -6,8 +6,8 @@ import ListDrawer from './components/ListDrawer';
 
 class App extends Component {
   state = {
-    lat: 29.7844913,
-    lon: -95.7800231,
+    lat: 31.0783698,
+    lon: -97.7570987,
     zoom: 13,
     all: locations,
     filtered: null,
@@ -72,7 +72,7 @@ class App extends Component {
           <button onClick={this.toggleDrawer} style={this.styles.menuButton}>
             <i className="fa fa-bars"></i>
           </button>
-          <h1>Katy, TX Mexican Restaurants</h1>
+          <h1>Killeen, TX McDonald's Locations</h1>
         </div>
         <MapDisplay
           lat={this.state.lat}

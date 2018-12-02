@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import {Map, InfoWindow, GoogleApiWrapper} from 'google-maps-react';
 import NoMapDisplay from './NoMapDisplay';
 
-const MAP_KEY = "AIzaSyBSf2q0a4Umr65w17nKsfLOl6L99Vj2DsQ";
-const FS_CLIENT = "IGXZG543B3RW4HHAD1XVVWK03Y2JU3M3KIOTZ2KEMJH5BEUF";
-const FS_SECRET = "3VKMH02ZDPJKMJIO5EEFJKJ3JCKO22SJAAOCPYGRBJHKVXVF";
-const FS_VERSION = "20180323";
+const MAP_KEY = "AIzaSyBhdxIEvc_CwgNgrtwr6Y4Tz3aWYTPOMCk";
+const FS_CLIENT = "YDXCKYF0EEO3OIDX23VWXA3BZRZ30XRYHDVHSW4PTWQRPOPK";
+const FS_SECRET = "YIRZ3YJJPKDVTMC5VLXDFQMEZHXKTNAKKZPFLY5CEHTK2MVC";
+const FS_VERSION = "20181202";
 
 class MapDisplay extends Component {
     state = {
