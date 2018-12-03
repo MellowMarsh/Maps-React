@@ -1,19 +1,12 @@
-# Maps
-
-## Overview
-
-
-* Google Maps
-* FourSquare
-* Font Awesome 
-* React Material-UI for the Drawer
-* google-maps-react for primary map display
+# Maps Fend Project
 
 ## Features
 This is a list of local fast food locations in the Killeen, Tx area. These locations display as markers on the map. Click a marker to see website information and location. Click on the hamburger button to see the list of Fast Food Locations.
 
 ## Setup:
 * Git the clone or fork:
+  fend-maps-using-marker (goes with Oct-27 webinar) by @Doug Brown - GitHub
+  https://github.com/thefinitemonkey/fend-maps-using-marker
 * Run `npm install`
 * Run `npm start`
 * Open folder in your favorite code editor and use yarn start to open map in http://localhost:3000/
