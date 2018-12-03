@@ -1,25 +1,25 @@
 # Maps
 
-## In
+## Overview
 
 
 * Google Maps
 * FourSquare
-* Font Awesome for the hamburger icon
+* Font Awesome 
 * React Material-UI for the Drawer
 * google-maps-react for primary map display
 
 ## Features
-This is a list of Mcdonald's cafe in the Killeen, Tx. These locations display as markers on the map. Clicking a marker displays an info box containing the name of the McDonald's, a link to its web site (if avaialble), and a picture from FourSquare related to the McDonalds (if available). Clicking the hamburger button on the left of the screen opens a drawer with a list of the venues and a text box at the top. Typing into the box filter the list of restaurants accordingly. Clicking a restaurant in the list closes the drawer and activates the marker on the map as if it had been clicked. Clicking anywhere outside the drawer closes the drawer. Clicking anywhere on the map closes any active info display.
+This is a list of Mcdonald's cafe in the Killeen, Tx area. These locations display as markers on the map. Click a marker to see website information and location. Click on the hamburger button to see the list of McDondald's cafe.
 
 ## Setup:
-* Clone this repo from https://github.com/MellowMarsh/Maps
 * Run `npm install`
 * Run `npm start`
+* Open folder in your favorite code editor and use yarn start to open map in http://localhost:3000/
 
 Note that the default service worker is used in this app (bootstrapped with create-react-app) and so only works in production build.
 
-## Tools Used:
+## Tools Used and Attributions:
 Ryan Waite walkthrough:
 https://youtu.be/acJHkd6K5kI
 Doug Brown Webinar:
