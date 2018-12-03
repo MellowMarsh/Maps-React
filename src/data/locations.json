@@ -9,41 +9,41 @@
     "pos": {"lat":31.1081956,"lng":-97.8037844}
   },
   {
-    "name": "McDonald's",
-    "street": "4622 S Fort Hood St (at Stan Schlueter Loop)",
+    "name": "Sonic",
+    "street": "5303 John David Dr",
+    "city": "Killeen",
+    "state": "TX",
+    "zip": "76549",
+    "url": "https://locations.sonicdrivein.com/tx/killeen/5303-john-david-drive.html",
+    "pos": {"lat":31.1695721,"lng":-97.8820197}
+  },
+  {
+    "name": "Arby's",
+    "street": "4010 E Stan Schlueter Loop",
     "city": "Killeen",
     "state": "TX",
     "zip": "76542",
-    "url": "https://www.mcdonalds.com/us/en-us.html",
-    "pos": {"lat":31.0783698,"lng":-97.7570987}
-  },
-  {
-    "name": "McDonald's",
-    "street": "109 E Rancier Ave",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76541",
-    "url": "https://www.mcdonalds.com/us/en-us.html",
-    "pos": {"lat":31.1264807,"lng":-97.7274267}
+    "url": "https://arbys.com/",
+    "pos": {"lat":31.0760527,"lng":-97.7735054}
     
   },
   {
-    "name": "McDonald's",
-    "street": "4300 E Central Texas Expy",
+    "name": "Taco Bell",
+    "street": "2103 South W S Young Drive",
     "city": "Killeen",
     "state": "TX",
     "zip": "76543",
-    "url": "https://www.mcdonalds.com/us/en-us.html",
-    "pos": {"lat":31.0803619,"lng":-97.7003738}
+    "url": "",
+    "pos": {"lat":31.0954659,"lng":-97.7214931}
   },
   {
-    "name": "McDonald's",
-    "street": "1400 Lowes Blvd",
+    "name": "In-N-Out Burger",
+    "street": "2006 E Central Texas Expy",
     "city": "Killeen",
     "state": "TX",
-    "zip": "76542",
-    "url": "https://www.mcdonalds.com/us/en-us.html",
-    "pos": {"lat":31.0894381,"lng":-97.7296839}
+    "zip": "76541",
+    "url": "https://http://www.in-n-out.com/",
+    "pos": {"lat":31.1394034,"lng":-97.6798435}
   }
 
 ]
