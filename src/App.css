@@ -7,6 +7,13 @@
   height: 40vmin;
 }
 
+header{
+  background-color: grey;
+  height: 30vh;
+  text-align: center;
+ 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
