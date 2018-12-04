@@ -74,7 +74,9 @@ class App extends Component {
           <button onClick={this.toggleDrawer} style={this.styles.menuButton}>
             <i className="fa fa-bars"></i>
           </button>
-          <h1>Local Fast Food Locations</h1>
+          <header> <h1>Local Fast Food Locations </h1>
+         <h1>Killeen, TX</h1>
+         </header>
         </div>
         <MapDisplay
           lat={this.state.lat}
