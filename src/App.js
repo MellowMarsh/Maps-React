@@ -14,15 +14,17 @@ class App extends Component {
     open: false
   }
 
+  //hamburger
   styles = {
     menuButton: {
-      marginLeft: 10,
-      marginRight: 20,
+      margin: 70,
       position: "absolute",
       left: 10,
       top: 20,
-      background: "white",
-      padding: 10
+      background: "lightgray",
+      padding: 10,
+      width:50,
+     height:50,
     },
     hide: {
       display: 'none'
