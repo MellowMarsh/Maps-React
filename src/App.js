@@ -4,6 +4,8 @@ import locations from './data/locations.json';
 import MapDisplay from './components/MapDisplay';
 import ListDrawer from './components/ListDrawer';
 
+
+
 class App extends Component {
   state = {
     lat: 31.0783698,
@@ -46,6 +48,7 @@ class App extends Component {
     this.setState({
       open: !this.state.open
     });
+  
   }
 
   updateQuery = (query) => {
@@ -72,7 +75,7 @@ class App extends Component {
       <div className="App">
         <div>
           <button onClick={this.toggleDrawer} style={this.styles.menuButton}>
-            <i className="fa fa-bars"></i>
+            <i className="fa fa-telegram fa-2x"></i>
           </button>
           <header> <h1>Local Fast Food Locations </h1>
          <h1>Killeen, TX</h1>

@@ -1,49 +1,27 @@
 [
   {
-    "name": "McDonald's",
-    "street": "3700 S Clear Creek Rd",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76549",
+    "name": "McDonald's 3700 S Clear Creek Rd Killeen,TX 76549",
     "url": "https://www.mcdonalds.com/us/en-us.html",
     "pos": {"lat":31.1081956,"lng":-97.8037844}
   },
   {
-    "name": "Sonic",
-    "street": "5303 John David Dr",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76549",
+    "name": "Sonic 5303 John David Dr Killeen, Tx 76549",
     "url": "https://locations.sonicdrivein.com/tx/killeen/5303-john-david-drive.html",
     "pos": {"lat":31.1695721,"lng":-97.8820197}
   },
   {
-    "name": "Arby's",
-    "street": "4010 E Stan Schlueter Loop",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76542",
+    "name": "Arby's 4010 E Stan Schlueter Loop Killeen, Tx 76542",
     "url": "https://arbys.com/",
     "pos": {"lat":31.0760527,"lng":-97.7735054}
-    
   },
   {
-    "name": "Taco Bell",
-    "street": "2103 South W S Young Drive",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76543",
+    "name": "Taco Bell 2103 South W S Young Drive Killeen, TX 76543",
     "url": "",
     "pos": {"lat":31.0954659,"lng":-97.7214931}
   },
   {
-    "name": "In-N-Out Burger",
-    "street": "2006 E Central Texas Expy",
-    "city": "Killeen",
-    "state": "TX",
-    "zip": "76541",
+    "name": "In-N-Out Burger 2006 E Central Texas Expy Killeen 76541",
     "url": "",
     "pos": {"lat":31.1394034,"lng":-97.6798435}
   }
-
 ]
