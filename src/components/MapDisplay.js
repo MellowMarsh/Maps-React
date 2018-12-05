@@ -190,21 +190,10 @@ class MapDisplay extends Component {
                     onClose={this.closeInfoWindow}>
                     <div>
                         <h2>{amProps && amProps.name}</h2>
-                        <h2>{amProps && amProps.nameL}</h2>
-
                         {amProps && amProps.url
                             ? (
-                                <a href={amProps.url}>See website</a>
+                                <a href={amProps.url}>Website</a>
                                 
-                            )
-                            : ""}
-                        {amProps && amProps.images
-                            ? (
-                                <div><img
-                                    alt={amProps.name + "food picture"}
-                                    src={amProps.images.items[0].prefix + "100x100" + amProps.images.items[0].suffix}/>
-                                    <p>Image from Foursquare</p>
-                                </div>
                             )
                             : ""}
                     </div>
