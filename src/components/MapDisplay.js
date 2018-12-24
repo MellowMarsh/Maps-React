@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {Map, InfoWindow, GoogleApiWrapper} from 'google-maps-react';
 import NoMapDisplay from './NoMapDisplay';
 
-
-
 const MAP_KEY = "AIzaSyBhdxIEvc_CwgNgrtwr6Y4Tz3aWYTPOMCk";
 const FS_CLIENT = "YDXCKYF0EEO3OIDX23VWXA3BZRZ30XRYHDVHSW4PTWQRPOPK";
 const FS_SECRET = "YIRZ3YJJPKDVTMC5VLXDFQMEZHXKTNAKKZPFLY5CEHTK2MVC";
@@ -54,7 +52,6 @@ class MapDisplay extends Component {
         this.updateMarkers(this.props.locations);
     }
 
-
     closeInfoWindow = () => {
         // Disable any active marker animation
         this.state.activeMarker && this
@@ -71,8 +68,7 @@ class MapDisplay extends Component {
             .response
             .venues
             .filter(item => item.name.includes(props.name) || props.name.includes(item.name));
-                }
-                
+    }
 
     onMarkerClick = (props, marker, e) => {
         // Close any info window already open
@@ -84,7 +80,6 @@ class MapDisplay extends Component {
         let request = new Request(url, {
             method: 'GET',
             headers
-            
         });
 
         // Create props for the active marker
@@ -189,13 +184,22 @@ class MapDisplay extends Component {
                     visible={this.state.showingInfoWindow}
                     onClose={this.closeInfoWindow}>
                     <div>
-                        <h2>{amProps && amProps.name}</h2>
+                        <h3>{amProps && amProps.name}</h3>
                         {amProps && amProps.url
                             ? (
-                                <a href={amProps.url}>Website</a>
-                                
+                                <a href={amProps.url}>See website</a>
                             )
                             : ""}
+                        {amProps && amProps.images
+                            ? (
+                                <div><img
+                                    alt={amProps.name + " food picture"}
+                                    src={amProps.images.items[0].prefix + "100x100" + amProps.images.items[0].suffix}/>
+                                    <p>Image from Foursquare</p>
+                                </div>
+                            )
+                            : ""
+                        }
                     </div>
                 </InfoWindow>
             </Map>
