@@ -15,9 +15,12 @@ This is a list of local fast food locations in the Killeen, Tx area. These locat
 Note that the default service worker is used in this app (bootstrapped with create-react-app) and so only works in production build.
 
 ## Tools Used and Attributions:
+
+* Google API Key: https://developers.google.com/maps/documentation/javascript/get-api-key
+* FourSquare API Key and Access Token: https://developer.foursquare.com/docs/api/configuration/authentication
+
 * Ryan Waite walkthrough:
   https://youtu.be/acJHkd6K5kI
 
-* Webinar: Neighborhood Map (P7) Oct-27 with @Doug Brown [Project Coach]  - YouTube
-  https://youtu.be/NVAVLCJwAAo
+* Thank you Project Coach Doug Brown for the step-by-step walkthrough. Webinar: Neighborhood Map (P7) Oct-27 with @Doug Brown   [Project Coach]  - YouTube https://youtu.be/NVAVLCJwAAo
 
