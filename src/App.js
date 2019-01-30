@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 //import hard coded data from locations.json
 import locations from './data/locations.json';
-//import MapDisplay to show the map
+//import MapDisplay component
 import MapDisplay from './components/MapDisplay';
+//import ListDrawer component
 import ListDrawer from './components/ListDrawer';
 
 //keep the state and functions above the level of componets that will need them
