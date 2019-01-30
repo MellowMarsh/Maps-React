@@ -33,9 +33,9 @@ Note that the default service worker is used in this app (bootstrapped with crea
 * FourSquare API Key and Access Token: https://developer.foursquare.com/docs/api/configuration/authentication
 
 ## Attributions:
-
+* Slack Community
+* Knowledge with Udacity
 * Thank you Project Coach Ryan Waite for the tutorial:
   https://youtu.be/acJHkd6K5kI
 * Thank you Elharony for the tutorials: Udacity | Neighborhood Map Walkthrough- https://youtu.be/ywdxLNjhBYw,                   https://youtu.be/W5LhLZqj76s, https://youtu.be/dAhMIF0fNpo, https://youtu.be/nDJ00zO9X2U, https://youtu.be/_1RjbT5dIeM  
-
 * Thank you Project Coach Doug Brown for the step-by-step walkthrough to complete this project. Webinar: Neighborhood Map (P7)   Oct-27 with @Doug Brown [Project Coach] - YouTube https://youtu.be/NVAVLCJwAAo 
