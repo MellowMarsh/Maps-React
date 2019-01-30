@@ -13,6 +13,15 @@ This is a list of local fast food locations in the Killeen, Tx area. These locat
 
 Note that the default service worker is used in this app (bootstrapped with create-react-app) and so only works in production build.
 
+## Steps:
+1. Initial-map-display
+2. Basic-marker-display
+3. Add-foursquare-data
+4. Add-list-drawer
+5. Add-filtering
+6. Add-click-list-to-marker
+7. Add-error-and-service-worker
+
 ## Tools Used: 
 
 * Google Maps API Key
