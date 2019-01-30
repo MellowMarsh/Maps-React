@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
+//import hard coded data from locations.json
 import locations from './data/locations.json';
+//import MapDisplay to show the map
 import MapDisplay from './components/MapDisplay';
 import ListDrawer from './components/ListDrawer';
 
+//keep the state and functions above the level of componets that will need them
 class App extends Component {
   state = {
+    //define latitude,longitude, zoom of where you want the map to display, and pull in the locations.
     lat: 31.0783698,
     lon: -97.7570987,
     zoom: 13,
@@ -14,7 +18,7 @@ class App extends Component {
     open: false
   }
 
-  //hamburger
+  //hamburger button
   styles = {
     menuButton: {
       margin: 70,

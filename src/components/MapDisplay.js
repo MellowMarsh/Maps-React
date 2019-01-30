@@ -1,13 +1,19 @@
 import React, {Component} from 'react';
+//import third party map component
 import {Map, InfoWindow, GoogleApiWrapper} from 'google-maps-react';
 import NoMapDisplay from './NoMapDisplay';
 
+
+//This is the google map API key. 
 const MAP_KEY = "AIzaSyBhdxIEvc_CwgNgrtwr6Y4Tz3aWYTPOMCk";
+//FourSquare API
 const FS_CLIENT = "YDXCKYF0EEO3OIDX23VWXA3BZRZ30XRYHDVHSW4PTWQRPOPK";
 const FS_SECRET = "YIRZ3YJJPKDVTMC5VLXDFQMEZHXKTNAKKZPFLY5CEHTK2MVC";
 const FS_VERSION = "20181202";
 
+
 class MapDisplay extends Component {
+    //state to hold map object
     state = {
         map: null,
         markers: [],
@@ -62,8 +68,8 @@ class MapDisplay extends Component {
     }
 
     getBusinessInfo = (props, data) => {
-        // Look for matching restaurant data in FourSquare compared to what we already
-        // know
+        // Look for matching restaurant data in FourSquare compared to what we already know
+        //data information will not always match
         return data
             .response
             .venues
@@ -106,12 +112,16 @@ class MapDisplay extends Component {
                                 ...activeMarkerProps,
                                 images: result.response.photos
                             };
+                            //set state with foursquare
                             if (this.state.activeMarker) 
+                                //set when marker to null when active
                                 this.state.activeMarker.setAnimation(null);
+                                //set new selected marker to bounce
                             marker.setAnimation(this.props.google.maps.Animation.BOUNCE);
                             this.setState({showingInfoWindow: true, activeMarker: marker, activeMarkerProps});
                         })
                 } else {
+                    //set state without foursquare
                     marker.setAnimation(this.props.google.maps.Animation.BOUNCE);
                     this.setState({showingInfoWindow: true, activeMarker: marker, activeMarkerProps});
                 }
@@ -119,7 +129,7 @@ class MapDisplay extends Component {
     }
 
     updateMarkers = (locations) => {
-        // If all the locations have been filtered then we're done
+        // If all the locations have been filtered then done
         if (!locations) 
             return;
         
@@ -127,14 +137,15 @@ class MapDisplay extends Component {
         this
             .state
             .markers
-            .forEach(marker => marker.setMap(null));
+            .forEach(marker => marker.setMap(null));//kills the marker
 
         // Iterate over the locations to create parallel references to marker properties
         // and the markers themselves that can be used for reference in interactions.
         // Add the markers to the map along the way.
-        let markerProps = [];
+        let markerProps = [];//this zeros out the markers
         let markers = locations.map((location, index) => {
             let mProps = {
+                //These are the same properties from the locations.json data for the info window.
                 key: index,
                 index,
                 name: location.name,
@@ -149,7 +160,8 @@ class MapDisplay extends Component {
                 .google
                 .maps
                 .Marker({position: location.pos, map: this.state.map, animation});
-            marker.addListener('click', () => {
+                //event listener for when marker is clicked
+                marker.addListener('click', () => {
                 this.onMarkerClick(mProps, marker, null);
             });
             return marker;
@@ -164,6 +176,7 @@ class MapDisplay extends Component {
             height: '100%'
         }
         const center = {
+            //google maps format
             lat: this.props.lat,
             lng: this.props.lon
         }
@@ -171,9 +184,11 @@ class MapDisplay extends Component {
 
         return (
             <Map
+            //parameters for role and aria label
                 role="application"
                 aria-label="map"
                 onReady={this.mapReady}
+                //coming from google api wrapper
                 google={this.props.google}
                 zoom={this.props.zoom}
                 style={style}
@@ -187,11 +202,13 @@ class MapDisplay extends Component {
                         <h3>{amProps && amProps.name}</h3>
                         {amProps && amProps.url
                             ? (
+                                //navigate to website
                                 <a href={amProps.url}>See website</a>
                             )
                             : ""}
                         {amProps && amProps.images
                             ? (
+                                //display image when available in the info window
                                 <div><img
                                     alt={amProps.name + " food picture"}
                                     src={amProps.images.items[0].prefix + "100x100" + amProps.images.items[0].suffix}/>
@@ -206,5 +223,5 @@ class MapDisplay extends Component {
         )
     }
 }
-
+//Export to render Webpage
 export default GoogleApiWrapper({apiKey: MAP_KEY, LoadingContainer: NoMapDisplay})(MapDisplay)

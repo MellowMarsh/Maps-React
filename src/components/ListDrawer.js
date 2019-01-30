@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import drawer componet 
 import Drawer from '@material-ui/core/Drawer';
 
 class ListDrawer extends Component {
@@ -6,7 +7,7 @@ class ListDrawer extends Component {
         open: false,
         query: ""
     }
-
+//css positioning and style for the list
     styles = {
         list: {
             width: "250px",
@@ -34,7 +35,7 @@ class ListDrawer extends Component {
             width: "100%"
         }
     };
-
+    //fires everytime there is typing in query box
     updateQuery = (newQuery) => {
         // Save the new query string in state and pass the string
         // up the call tree
@@ -54,6 +55,7 @@ class ListDrawer extends Component {
                             name="filter"
                             onChange={e => this
                                 .updateQuery(e.target.value)}
+                                //the initial value of the query
                             value={this.state.query} />
                         <ul style={this.styles.noBullets}>
                             {this.props.locations && this
@@ -62,7 +64,8 @@ class ListDrawer extends Component {
                                 .map((location, index) => {
                                     return (
                                         <li style={this.styles.listItem} key={index}>
-                                            <button style={this.styles.listLink} key={index} onClick={e => this.props.clickListItem(index)}>{location.name}</button>
+                                    {/*button adds tab and accessibility to the list and filter. onClick call the function in higher level component in App.js*/}                                            
+                                    <button style={this.styles.listLink} key={index} onClick={e => this.props.clickListItem(index)}>{location.name}</button>
                                         </li>
                                     )
                                 })}
@@ -73,5 +76,5 @@ class ListDrawer extends Component {
         )
     }
 }
-
+//Export to render Webpage
 export default ListDrawer;
