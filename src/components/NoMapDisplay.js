@@ -28,8 +28,8 @@ class NoMapDisplay extends Component {
                     ? (
                         <div>
                             <h1>Error loading map</h1>
-                            < p >
-                            Network error. Could not load map content.  Try back later or refresh the browser.</p>
+                            <p>
+                            Network error. Could not load map content.  Try again or refresh the browser.</p>
                         </div>
                     )
                     : (<div><h1>Loading</h1></div>)
